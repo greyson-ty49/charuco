@@ -1,0 +1,100 @@
+{
+  "calibration_info": {
+    "timestamp": "2026-03-19T15:55:14.854025",
+    "board_size": [
+      7,
+      5
+    ],
+    "square_length": 0.0335,
+    "marker_length": 0.025125,
+    "num_images_used": 54,
+    "total_images": 54,
+    "reprojection_error": 2.131991772705568
+  },
+  "camera_matrix": [
+    [
+      842.1431433596487,
+      0.0,
+      610.1670364550477
+    ],
+    [
+      0.0,
+      842.7049776515524,
+      321.0442702414555
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    [
+      0.003603296489952153,
+      0.3361007986262042,
+      -0.0232060635244894,
+      -0.012510072292405128,
+      -0.8151426812507442
+    ]
+  ],
+  "image_size": [
+    1280,
+    720
+  ],
+  "valid_images": [
+    "calibration_image_01.jpg",
+    "calibration_image_02.jpg",
+    "calibration_image_03.jpg",
+    "calibration_image_04.jpg",
+    "calibration_image_05.jpg",
+    "calibration_image_06.jpg",
+    "calibration_image_07.jpg",
+    "calibration_image_08.jpg",
+    "calibration_image_09.jpg",
+    "calibration_image_10.jpg",
+    "calibration_image_11.jpg",
+    "calibration_image_12.jpg",
+    "calibration_image_13.jpg",
+    "calibration_image_14.jpg",
+    "calibration_image_15.jpg",
+    "calibration_image_16.jpg",
+    "calibration_image_17.jpg",
+    "calibration_image_18.jpg",
+    "calibration_image_19.jpg",
+    "calibration_image_20.jpg",
+    "calibration_image_21.jpg",
+    "calibration_image_22.jpg",
+    "calibration_image_23.jpg",
+    "calibration_image_24.jpg",
+    "calibration_image_25.jpg",
+    "calibration_image_26.jpg",
+    "calibration_image_27.jpg",
+    "calibration_image_28.jpg",
+    "calibration_image_29.jpg",
+    "calibration_image_30.jpg",
+    "calibration_image_31.jpg",
+    "calibration_image_32.jpg",
+    "calibration_image_33.jpg",
+    "calibration_image_34.jpg",
+    "calibration_image_35.jpg",
+    "calibration_image_36.jpg",
+    "calibration_image_37.jpg",
+    "calibration_image_38.jpg",
+    "calibration_image_39.jpg",
+    "calibration_image_40.jpg",
+    "calibration_image_41.jpg",
+    "calibration_image_42.jpg",
+    "calibration_image_43.jpg",
+    "calibration_image_44.jpg",
+    "calibration_image_45.jpg",
+    "calibration_image_46.jpg",
+    "calibration_image_47.jpg",
+    "calibration_image_48.jpg",
+    "calibration_image_49.jpg",
+    "calibration_image_50.jpg",
+    "calibration_image_51.jpg",
+    "calibration_image_52.jpg",
+    "calibration_image_53.jpg",
+    "calibration_image_54.jpg"
+  ]
+}
