@@ -39,8 +39,13 @@ if ($CurrentBranch -ne $Branch) {
 }
 
 # Set remote origin
-$ExistingOrigin = (git remote get-url origin 2>$null)
-if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($ExistingOrigin)) {
+$ExistingOrigin = ""
+try {
+    $ExistingOrigin = (git remote get-url origin 2>$null).Trim()
+} catch {
+    $ExistingOrigin = ""
+}
+if ([string]::IsNullOrWhiteSpace($ExistingOrigin)) {
     git remote add origin $RepoUrl
 } elseif ($ExistingOrigin -ne $RepoUrl) {
     git remote set-url origin $RepoUrl
